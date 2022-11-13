@@ -9,13 +9,13 @@ You can make gif with image urls or PIL image list.
 The recommended way to install is via [pip](https://pypi.org/project/pip/)
 
 ```bash
-$ pip install py-gifmaker
+$ pip install pypygifmaker
 ```
 
 ## Getting Started
 
 ```python
-from py_gifmaker import GifMaker
+from pypygifmaker import GifMaker
 gifmaker = GifMaker()
 ```
 
