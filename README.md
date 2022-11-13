@@ -15,7 +15,7 @@ $ pip install pypygifmaker
 ## Getting Started
 
 ```python
-from pypygifmaker import GifMaker
+from pygifmaker.pygifmaker import GifMaker
 gifmaker = GifMaker()
 ```
 
@@ -42,7 +42,7 @@ GifMaker.PIL(output_filename, pil_images, fps, loop)
 
 ## Support
 
-If you find an bug, have any questions about how to use py-gifmaker or have suggestions for improvements then feel free to file an issue on the [Github project page](https://github.com/schooldevops/gifmaker/issues).
+If you find an bug, have any questions about how to use py-gifmaker or have suggestions for improvements then feel free to file an issue on the [Github project page](https://github.com/yoonhero/gifmaker/issues).
 
 ## License
 

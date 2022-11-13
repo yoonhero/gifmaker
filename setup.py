@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pypygifmaker",
-    version="0.0.1",
+    version="0.0.1.1",
     author="Yoonhero",
     author_email="yoonhero06@naver.com",
     description="You can make a simple gif easily with this GIFMAKER",
@@ -20,7 +20,8 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
+    license="MIT",
+    packages=["pygifmaker"],
     python_requires=">=3.6",
+    install_requires=["Pillow"]
 )
