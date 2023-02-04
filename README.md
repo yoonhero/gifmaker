@@ -1,5 +1,7 @@
 ## Project Description
 
+[![Downloads](https://static.pepy.tech/badge/pypygifmaker)](https://pepy.tech/project/pypygifmaker)
+
 The simple way of making GIF.
 
 You can make gif with image urls or PIL image list.
